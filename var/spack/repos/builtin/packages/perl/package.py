@@ -34,8 +34,9 @@ class Perl(Package):  # Perl doesn't use Autotools, it should subclass Package
     version('5.25.11', '37a398682c36cd85992b34b5c1c25dc1')
 
     # Maintenance releases (even numbers, recommended)
+    version('5.30.0', '9770584cdf9b5631c38097645ce33549', preferred=True)
     version('5.28.0', sha256='7e929f64d4cb0e9d1159d4a59fc89394e27fa1f7004d0836ca0d514685406ea8')
-    version('5.26.2', 'dc0fea097f3992a8cd53f8ac0810d523', preferred=True)
+    version('5.26.2', 'dc0fea097f3992a8cd53f8ac0810d523')
     version('5.24.1', '765ef511b5b87a164e2531403ee16b3c')
 
     # End of life releases
