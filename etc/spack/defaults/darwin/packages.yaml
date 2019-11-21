@@ -37,3 +37,11 @@ packages:
     paths:
       libpng@1.6.34: /opt/X11
     buildable: False
+  libiconv:
+    paths:
+      libiconv@1.16 arch=darwin-macos-x86_64: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr
+      libiconv@1.16 arch=darwin-mojave-x86_64: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr
+    buildable: False
+  sqlite:
+    paths:
+      sqlite@3.28.0+fts~functions arch=darwin-mojave-x86_64: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr
