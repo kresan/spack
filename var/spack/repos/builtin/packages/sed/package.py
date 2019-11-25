@@ -9,6 +9,6 @@ from spack import *
 class Sed(AutotoolsPackage):
     """GNU implementation of the famous stream editor."""
     homepage = "http://www.gnu.org/software/sed/"
-    url      = "https://ftpmirror.gnu.org/sed/sed-4.2.2.tar.bz2"
+    url      = "https://ftp.gnu.org/gnu/sed/sed-4.2.2.tar.bz2"
 
     version('4.2.2', '7ffe1c7cdc3233e1e0c4b502df253974')
