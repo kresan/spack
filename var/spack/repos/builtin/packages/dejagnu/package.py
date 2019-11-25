@@ -11,7 +11,7 @@ class Dejagnu(AutotoolsPackage):
     is to provide a single front end for all tests."""
 
     homepage = "https://www.gnu.org/software/dejagnu/"
-    url      = "https://ftpmirror.gnu.org/dejagnu/dejagnu-1.6.tar.gz"
+    url      = "https://ftp.gnu.org/gnu/dejagnu/dejagnu-1.6.tar.gz"
 
     version('1.6',   '1fdc2eb0d592c4f89d82d24dfdf02f0b')
     version('1.4.4', '053f18fd5d00873de365413cab17a666')

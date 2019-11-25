@@ -14,7 +14,7 @@ class Glpk(AutotoolsPackage):
     """
 
     homepage = "https://www.gnu.org/software/glpk"
-    url      = "https://ftpmirror.gnu.org/glpk/glpk-4.65.tar.gz"
+    url      = "https://ftp.gnu.org/gnu/glpk/glpk-4.65.tar.gz"
 
     version('4.65', '470a984a8b1c0e027bdb6d5859063fe8')
     version('4.61', '3ce3e224a8b6e75a1a0b378445830f21')

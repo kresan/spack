@@ -10,7 +10,7 @@ class Bash(AutotoolsPackage):
     """The GNU Project's Bourne Again SHell."""
 
     homepage = "https://www.gnu.org/software/bash/"
-    url      = "https://ftpmirror.gnu.org/bash/bash-4.4.tar.gz"
+    url      = "https://ftp.gnu.org/gnu/bash/bash-4.4.tar.gz"
 
     version('5.0', sha256='b4a80f2ac66170b2913efbfb9f2594f1f76c7b1afd11f799e22035d63077fb4d')
     version('4.4.12', '7c112970cbdcadfc331e10eeb5f6aa41')
