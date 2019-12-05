@@ -646,15 +646,15 @@ def main(argv=None):
     parser.add_argument('command', nargs=argparse.REMAINDER)
     args, unknown = parser.parse_known_args(argv)
 
+    # make spack.config aware of any command line configuration scopes
+    if args.config_scopes:
+        spack.config.command_line_scopes = args.config_scopes
+
     # activate an environment if one was specified on the command line
     if not args.no_env:
         env = ev.find_environment(args)
         if env:
             ev.activate(env, args.use_env_repo)
-
-    # make spack.config aware of any command line configuration scopes
-    if args.config_scopes:
-        spack.config.command_line_scopes = args.config_scopes
 
     if args.print_shell_vars:
         print_setup_info(*args.print_shell_vars.split(','))
